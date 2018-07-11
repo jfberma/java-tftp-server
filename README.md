@@ -9,6 +9,7 @@ TFTP client
 
 ### To Build
 regular build: `./gradlew build`
+
 distribution: `./gradlew assembleDist`
 
 ### To Run Tests
