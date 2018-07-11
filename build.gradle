@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+apply plugin: 'application'
+
+group 'com.urbanairship'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+mainClassName = "com.urbanairship.tftp_server.TftpServer"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
