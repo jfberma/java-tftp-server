@@ -8,7 +8,8 @@ Once running, you will be able to transfer files using a
 TFTP client
 
 ### To Build
-`./gradlew build`
+regular build: `./gradlew build`
+distribution: `./gradlew assembleDist`
 
 ### To Run Tests
 `./gradlew test`
